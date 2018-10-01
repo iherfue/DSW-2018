@@ -37,7 +37,7 @@ $numero = 10;
 <html>
 <head>
 <title>Iván Hernández Fuentes</title>
-<meta charset="ut-8">
+<meta charset="utf-8">
 </head>
 
 <body>

@@ -71,6 +71,7 @@ class Cliente extends Cart{  //subclase cliente que hereda de cart
  $carrito->MeterArticulos("Yogur","10");
  $carrito->MeterArticulos("Coca Cola","16");
  $carrito->MeterArticulos("Fanta","7");
+ $carrito->MeterArticulos("Fanta","2");//añadimos dos fantas nuevas el resultado deberia de ser 9
 
 echo "<h2>Hola " . $carrito->cliente . " este es tu carrito:</h2>"; //imprime por pantalla el propietario del carrito entrando en la propiedad cliente del objeto carrito
 

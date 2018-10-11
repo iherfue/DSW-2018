@@ -12,7 +12,7 @@
          ':nombre' => $_POST['nombre'],
          ':apellido' => $_POST['apellido'],
          ':email' => $_POST['email'],
-         ':password' => $CIFRADO
+         ':password' => $cifrado
        ));
        header("Location: {$_SERVER['PHP_SELF']}");
    }//fin del if

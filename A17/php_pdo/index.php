@@ -3,7 +3,8 @@
 
    //INSERTAR USUARIOS
    if(isset($_POST["enviar"])){
-
+      $contrasenia = $_POST['password'];
+      $cifrado = password_hash($contrasenia,PASSWORD_DEFAULT);
        $sql = "insert into cliente (nombre,apellido,email,password) values(:nombre,:apellido,:email,:password)";
        //echo("<pre>\n" .$sql."\n</pre>\n");
        $prepar = $pdo->prepare($sql);   //pepara la consulta y ejecuta (solo si recibe parametros)
@@ -11,7 +12,7 @@
          ':nombre' => $_POST['nombre'],
          ':apellido' => $_POST['apellido'],
          ':email' => $_POST['email'],
-         ':password' => $_POST['password']
+         ':password' => $CIFRADO
        ));
        header("Location: {$_SERVER['PHP_SELF']}");
    }//fin del if

@@ -1,4 +1,4 @@
-Servidor de Pruebas
+<b>Servidor de Pruebas</b>
 
 <a href="http://51.254.116.159/dsw/A19/ejer1/">Ejercicio 1</a>
 <a href="http://51.254.116.159/dsw/A19/ejer2/ejercicio2.php">Ejercicio 2</a>

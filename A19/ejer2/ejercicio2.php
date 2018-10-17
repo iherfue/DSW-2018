@@ -1,7 +1,7 @@
 <?php
 session_start();
 if(!isset($_SESSION['number'])){
-  $_SESSION['numero'] = 0;
+  $_SESSION['number'] = 0;
 }
 
 /*Ejercicio 2

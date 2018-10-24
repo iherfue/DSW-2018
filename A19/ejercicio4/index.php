@@ -1,6 +1,6 @@
 <?php
 session_start();
-if(isset($_SESSION['nombre']) && isset($_SESSION['valor'])){
+if(count($_SESSION)){
 
     echo "Hay datos guardados";
 }else{

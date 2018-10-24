@@ -1,9 +1,10 @@
 <?php
 session_start();
 
-  $_SESSION['nombre'] = $_GET['nombre_dato'];
-  $_SESSION['valor'] = $_GET['valor_dato'];
-  header("Location: index.php");
+$nombre = $_GET['nombre'];
+$valor = $_GET['valor'];
+$_SESSION[$nombre] = $valor;
 
+header("Location: index.php");
 
 ?>

@@ -6,9 +6,15 @@ session_start();
     <p>Marque los datos a borrar:</p>
     <table>
       <tbody>
-        <tr>
-          <td><input type="checkbox" name="<?php echo $_SESSION['nombre']?>" value="<?php echo $_SESSION['valor']?>" /></td>
-          <td><?php echo $_SESSION['nombre'] . ':' . $_SESSION['valor'] ?></td>
+          <?php
+            foreach ($_SESSION as $i => $valor) {
+                    echo "<tr>";
+                    echo "<td>";
+                    echo "<input type='checkbox' name='$i' value='$valor' </td>";
+                    echo "<td>$i:$valor</td>";
+                    echo "</tr>";
+              }
+          ?>
         </tr>
       </tbody>
     </table>

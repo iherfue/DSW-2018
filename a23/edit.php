@@ -28,10 +28,10 @@ if(isset($_POST['make']) && isset($_POST['year']) && isset($_POST['mileage'])){
           year = :year, mileage = :mileage where auto_id = :auto_id";
   $stmt = $pdo->prepare($sql);
   $stmt->execute(array(
-    ':make' => $_POST['make'],
-    ':year' => $_POST['year'],
-    ':mileage' => $_POST['mileage'],
-    ':auto_id' => $_POST['auto_id']
+    ':make' => htmlentities($_POST['make']),
+    ':year' => htmlentities($_POST['year']),
+    ':mileage' => htmlentities($_POST['mileage']),
+    ':auto_id' => htmlentities($_POST['auto_id'])
   ));
 
   $_SESSION['success'] = 'Registro modificado';

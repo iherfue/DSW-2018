@@ -1,5 +1,8 @@
+<h3>Servidor de Pruebas (en edición)</h3>
 <pre>
 
-<h3>Servidor de Pruebas (en edición)</h3>
+<ul>
+  <li>Se ha corregido la estructura de las carpetas(public)</li>
+</ul>
 
 </pre>

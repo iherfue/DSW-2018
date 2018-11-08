@@ -10,6 +10,7 @@
   <li>Ejercicio 2 Acceso al método de la URL</li>
   <ul>
     <li><a href="http://51.254.116.159/a27_1/">Si te conectas sin especificar controlador ni método se visualiza el controlador por defecto y el método por defecto (index).</a></li>
+    <li><a href="http://51.254.116.159/a27_1/paginas">Si te conectas especificando controlador por defecto (paginas) sin método se visualiza el controlador por defecto y el método por defecto.</a></li>
   </ul>
 </ul>
 

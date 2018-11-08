@@ -19,6 +19,7 @@
   </ul>
   <li>Ejercicio 3. Acceso a los parámetros de la URL</li>
   <ul>
+    <li><a href="ttp://51.254.116.159/a27_1/paginas/actualizar/7">Por último, nos queda parsear la URL para comprobar si hay parámetros. Actualiza el constructor de Core.php</a></li>
   </ul>
 </ul>
 

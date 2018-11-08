@@ -15,6 +15,7 @@
     <li><a href="http://51.254.116.159/a27_1/paginas/test/test">Si te conectas especificando un controlador inexistente con método inexistente se visualiza el controlador por defecto y el método por defecto.</a></li>
     <p>Apartado siguiente (Crea ahora dentro del controlador por defecto (Paginas.php) un método que se llame actualizar:)</p>
     <li><a href="http://51.254.116.159/a27_1/paginas/actualizar">Si te conectas especificando el controlador por defecto con método actualizar se visualiza el controlador y el método actualiza</a></li>
+    <li><a href="http://51.254.116.159/a27_1/paginas/ac">Si te conectas especificando el controlador por defecto con método inexistente se visualiza el controlador por defecto y el método por defecto.</a></li>
   </ul>
 </ul>
 

@@ -1,4 +1,4 @@
-<h3>Servidor de Pruebas ESTADO: EN EDICIÓN Fecha máxima para la publicación <b>08/11/2018 13:30</b></h3>
+<h3><b>Servidor de Pruebas</b></h3>
 <pre>
 <h4>Modificaciones</h4>
 <ul>

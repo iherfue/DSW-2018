@@ -4,7 +4,7 @@ class Paginas extends Controlador{
 
     public function __construct() {
         echo "Controlador páginas cargado";
-    //    $this->articuloModelo = $this->cargaModelo("Articulo");
+        $this->articuloModelo = $this->cargaModelo("Articulo");
     }
 
     public function actualizar($id){

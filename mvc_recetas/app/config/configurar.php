@@ -9,9 +9,9 @@ define("DB_NOMBRE" , "receta");//fuera por seguridad
 define ("RUTA_APP", dirname(dirname (__FILE__)));
 
 //Ruta URL, por si tenemos que cambiar de servidor
-define("RUTA_URL", "http://192.168.1.40/mvc_recetas");
+define("RUTA_URL", "http://192.168.1.34/mvc_recetas");
 
 //Nombre del proyecto
-define("NOMBRE_SITIO", "_MI_FRAMERORK_MVC_IVAN");
+define("NOMBRE_SITIO", "_MI_RECETAS_MVC_IVAN");
 
  ?>

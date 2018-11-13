@@ -1,22 +1,21 @@
-<?php
+ <?php
 
-class Platos extends Controlador{
+class Platos extends Controlador {
 
   public function __construct() {
       echo "Controlador platos cargado";
-      $this->articuloModelo = $this->cargaModelo("Plato");
+      $this->platoModelo = $this->cargaModelo("Plato");
 
   }
 
-  public function index(){
+  public function indexes(){
 
-    $datos = [
+/*    $datos = [
       "Titulo" => "Framework de Ivan"
 
-    ];
-      $this->cargaVista('recetas',$datos);
-  }
-
+    ];*/
+      $this->cargaVista('recetas');
+ }
 }
 
  ?>

@@ -10,12 +10,11 @@
         </tr>
     </thead>
     <tbody>
-<?php foreach($this->modelos->Mostrar() as $r): //$r->tal cual se llama en BD?>
+<?php foreach($this->platoModelo->Mostrar() as $r): //$r->tal cual se llama en BD?>
         <tr>
             <td><?php echo $r->id_plato; ?></td>
             <td><?php echo $r->nombre; ?></td>
-            <td><?php echo $r->year; ?></td>
-            <td><?php echo $r->mileage; ?></td>
+
 
             <td>
                 <a href="?c=Coche&a=Crud&id=<?php echo $r->auto_id; ?>">Editar</a>

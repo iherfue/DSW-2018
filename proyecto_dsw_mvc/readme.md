@@ -6,4 +6,4 @@
   <li><a href="http://51.254.116.159/phpdocumentor_ivan/" target="_blank">Acceso al PHPDocumentor</a></li>
 </ul>
 
-<p style="color:red; ">No se descartan que se produzcan modificaciones hasta el último día de la presentación*</p>
+<h4><b>*No se descartan que se produzcan modificaciones hasta el último día de la presentación</b></h4>

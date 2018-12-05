@@ -1,0 +1,263 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-11-28 11:59+0000\n"
+"PO-Revision-Date: 2018-11-28 12:19+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ../a33/var/www/html/proyecto_dsw_mvc/app/vistas\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: alquiler/Alquiladas.php:3
+msgid "Vista de los alquileres"
+msgstr "View of the rentals"
+
+#: alquiler/Alquiladas.php:4 alquiler/EliminaAlquiler.php:14
+#: alquiler/NuevoAlquiler.php:4 peliculas/buscar.php:41
+#: socio/SocioBuscar.php:30 socio/socio.php:12
+msgid "Volver"
+msgstr "Back"
+
+#: alquiler/Alquiladas.php:5 peliculas/peliculas.php:5 socio/socio.php:13
+msgid "Añadir"
+msgstr "Add"
+
+#: alquiler/Alquiladas.php:9 peliculas/InsertarPelicula.php:65
+#: socio/EditarSocio.php:14 socio/InsertarSocio.php:15 socio/SocioBuscar.php:18
+#: socio/socio.php:17
+msgid "Nombre"
+msgstr "Name"
+
+#: alquiler/Alquiladas.php:10 socio/EditarSocio.php:18
+#: socio/InsertarSocio.php:19 socio/SocioBuscar.php:19
+msgid "Apellidos"
+msgstr "Surname"
+
+#: alquiler/Alquiladas.php:12 peliculas/InsertarPelicula.php:76
+#: peliculas/peliculas.php:9
+msgid "Título"
+msgstr "Title"
+
+#: alquiler/Alquiladas.php:13 alquiler/Alquiladas.php:25
+#: peliculas/peliculas.php:14 peliculas/peliculas.php:73 socio/socio.php:22
+#: socio/socio.php:36
+msgid "Eliminar"
+msgstr "Remove"
+
+#: alquiler/EliminaAlquiler.php:6
+msgid "Eliminar un alquiler"
+msgstr "Delete a rental"
+
+#: alquiler/EliminaAlquiler.php:12 peliculas/EliminaPelicula.php:10
+#: socio/EliminarSocio.php:10
+msgid "Atención!"
+msgstr "Attention"
+
+#: alquiler/EliminaAlquiler.php:12 socio/EliminarSocio.php:10
+msgid "Seguro que desea realizar esta operación"
+msgstr "Sure you want to perform this operation"
+
+#: alquiler/NuevoAlquiler.php:3
+msgid "Realizar un alquiler"
+msgstr "Make a rental"
+
+#: alquiler/NuevoAlquiler.php:6
+msgid "Socio"
+msgstr "Partner"
+
+#: alquiler/NuevoAlquiler.php:16
+msgid "Pelicula"
+msgstr "Movie"
+
+#: alquiler/NuevoAlquiler.php:26
+msgid "Enviar por correo"
+msgstr "Send by mail"
+
+#: home.php:13
+msgid "Bienvenido"
+msgstr "Welcome"
+
+#: home.php:14
+msgid "Cerrar sesión"
+msgstr "Logout"
+
+#: home.php:19
+msgid "Socios"
+msgstr "Partners"
+
+#: home.php:21
+msgid "Gestion de socios"
+msgstr "Partner Management"
+
+#: home.php:30 home.php:40
+msgid "Peliculas"
+msgstr "Movies"
+
+#: home.php:32
+msgid "Gestión de Peliculas"
+msgstr "Film Management"
+
+#: home.php:42
+msgid "Gestión de alquileres"
+msgstr "Rental Management"
+
+#: home.php:52
+msgid "Log de errores"
+msgstr "Error log"
+
+#: peliculas/EditarPelicula.php:4
+msgid "Editar Pelicula"
+msgstr "Edit Movie"
+
+#: peliculas/EditarPelicula.php:10 peliculas/InsertarPelicula.php:82
+#: peliculas/buscar.php:6
+msgid "Titulo"
+msgstr "Title"
+
+#: peliculas/EditarPelicula.php:14 peliculas/InsertarPelicula.php:78
+#: peliculas/buscar.php:7 peliculas/peliculas.php:10
+msgid "Año"
+msgstr "Year"
+
+#: peliculas/EditarPelicula.php:19
+msgid "Elija los géneros (opción multiple)"
+msgstr "Choose the generous (multiple choice)"
+
+#: peliculas/EditarPelicula.php:48 peliculas/EditarPelicula.php:76
+#: peliculas/EditarPelicula.php:104
+msgid "Géneros"
+msgstr "Generous"
+
+#: peliculas/EditarPelicula.php:133 peliculas/buscar.php:9
+msgid "Calificación"
+msgstr "Qualification"
+
+#: peliculas/EditarPelicula.php:137 peliculas/InsertarPelicula.php:84
+#: socio/EditarSocio.php:34 socio/InsertarSocio.php:36
+msgid "Enviar"
+msgstr "Send"
+
+#: peliculas/EditarPelicula.php:141 peliculas/InsertarPelicula.php:85
+#: socio/EditarSocio.php:38 socio/InsertarSocio.php:37
+msgid "Cancelar"
+msgstr "Cancel"
+
+#: peliculas/EliminaPelicula.php:5
+msgid "Eliminar Pelicula"
+msgstr "Delete Movie"
+
+#: peliculas/EliminaPelicula.php:10
+msgid "Seguro que desea realizar esta operacion"
+msgstr "Sure you want to perform this operation"
+
+#: peliculas/EliminaPelicula.php:12 peliculas/peliculas.php:4
+#: socio/EliminarSocio.php:12
+msgid "volver"
+msgstr "Back"
+
+#: peliculas/InsertarPelicula.php:6
+msgid "Insertar pelicula automáticamente"
+msgstr "Automatically insert Movie "
+
+#: peliculas/InsertarPelicula.php:9
+msgid "Insertar pelicula manualmente"
+msgstr "Insert Movie Manually "
+
+#: peliculas/InsertarPelicula.php:18
+msgid "Cargando información desde la API por favor espere"
+msgstr "Loading information from the API please wait "
+
+#: peliculas/InsertarPelicula.php:61
+msgid "Buscar pelicula"
+msgstr "Search Movie "
+
+#: peliculas/InsertarPelicula.php:68
+msgid "Buscar"
+msgstr "Search"
+
+#: peliculas/InsertarPelicula.php:73
+msgid "Resultado"
+msgstr "Result"
+
+#: peliculas/InsertarPelicula.php:80 peliculas/peliculas.php:11
+msgid "Género"
+msgstr "Genre"
+
+#: peliculas/buscar.php:8
+msgid "Genero"
+msgstr "Genre"
+
+#: peliculas/buscar.php:10
+msgid "Imagen"
+msgstr "Image"
+
+#: peliculas/peliculas.php:3
+msgid "Vista de Peliculas"
+msgstr "Movie View "
+
+#: peliculas/peliculas.php:12 socio/socio.php:20
+msgid "Consultar"
+msgstr "Consult"
+
+#: peliculas/peliculas.php:13 peliculas/peliculas.php:70 socio/socio.php:21
+#: socio/socio.php:33
+msgid "Editar"
+msgstr "Edit"
+
+#: peliculas/peliculas.php:68 socio/socio.php:31
+msgid "Detalles"
+msgstr "Details"
+
+#: socio/EditarSocio.php:2
+msgid "Editar Socio"
+msgstr "Edit Partner"
+
+#: socio/EditarSocio.php:22
+msgid "Direccion"
+msgstr "Address"
+
+#: socio/EditarSocio.php:26
+msgid "Telefono"
+msgstr "Phone"
+
+#: socio/EliminarSocio.php:5
+msgid "Eliminar Socio"
+msgstr "Delete Partner"
+
+#: socio/InsertarSocio.php:3
+msgid "Insertar"
+msgstr "Insert"
+
+#: socio/InsertarSocio.php:23 socio/SocioBuscar.php:20
+msgid "Dirección"
+msgstr "Address"
+
+#: socio/InsertarSocio.php:27 socio/SocioBuscar.php:21
+msgid "Teléfono"
+msgstr "Phone"
+
+#: socio/InsertarSocio.php:35
+msgid "Son obligatorios"
+msgstr "Are mandatory"
+
+#: socio/SocioBuscar.php:5
+msgid "Datos"
+msgstr "Data"
+
+#: socio/SocioBuscar.php:8
+msgid "Peliculas Alquiladas"
+msgstr "Rented Movies"
+
+#: socio/socio.php:11
+msgid "Vista de socio"
+msgstr "Partner View"
+
+#: socio/socio.php:18
+msgid "Apellido"
+msgstr "Surname"

@@ -1,0 +1,43 @@
+drop database if exists peliculas;
+create database peliculas;
+use peliculas;
+
+create table socios(
+
+    id_socio int auto_increment primary key,
+    nombre varchar(45),
+    apellidos varchar(45),
+    direccion varchar(45),
+    telefono char(9),
+    dni char(9)
+);
+
+create table peliculas(
+
+	id_pelicula int primary key auto_increment,
+    titulo varchar(250),
+    anio year(4),
+    genero varchar(100),
+    calificacion varchar(10),
+    imagen varchar(250)
+);
+
+create table alquiladas(
+
+	id_socio int,
+    id_pelicula int,
+
+    primary key(id_socio,id_pelicula),
+
+    foreign key (id_socio) references socios(id_socio) on delete restrict on update cascade,
+    foreign key (id_pelicula) references peliculas(id_pelicula) on delete cascade on update cascade
+);
+
+ create table usuarios(
+
+	id_usuario int primary key auto_increment,
+    email varchar(45),
+    password varchar(250)
+
+ );
+  

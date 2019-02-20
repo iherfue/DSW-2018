@@ -1,3 +1,4 @@
+<h2><a href="https://github.com/iherfue/relaciones_eloquent">Repositorio</a></h2>
 <h1>Importante!</h1>
   
  <p>Al realizar la relación N:M,hice otra tabla articles, no utilice la tabla articles de los escritores, debido a que me empezo a dar problemas.
